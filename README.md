@@ -17,13 +17,13 @@ Creating a class:
 ```js
 const WynnAPI = require("wynnapi");
 const wynn = new WynnAPI();
-wynn.getPlayer("Player");
+wynn.getPlayer("Player").then((player) => console.log(player));
 ```
 
 Alternatively you can just call functions directly like this:
 ```js
 const WynnAPI = require("wynnapi");
-WynnAPI().getPlayer("Player");
+new WynnAPI().getPlayer("Player").then((player) => console.log(player));
 ```
 
 ### Examples

@@ -26,5 +26,5 @@ const WynnAPI = require("wynnapi");
 WynnAPI().getPlayer("Player");
 ```
 
-### Example
+### Examples
 Examples will be in the examples folder, they are currently a work in progress!

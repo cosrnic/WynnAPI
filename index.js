@@ -15,6 +15,16 @@ const getItemsFromCategory = require("./api/item/searchItemsFromCategory");
 const getGuild = require("./api/guild/getGuild");
 const listGuilds = require("./api/guild/listGuilds");
 
+// network
+const serverList = require("./api/network/serverList");
+const playerSum = require("./api/network/playerSum");
+
+// territory
+const listTerritories = require("./api/territory/listTerritories");
+
+// leaderboard
+const leaderboards = require("./api/leaderboard/leaderboards");
+
 class Wynn {
   // player
   getPlayer(input) {
@@ -49,6 +59,24 @@ class Wynn {
   }
   listGuilds() {
     return listGuilds();
+  }
+
+  // network
+  serverList() {
+    return serverList();
+  }
+  playerSum() {
+    return playerSum();
+  }
+
+  // territory
+  listTerritories() {
+    return listTerritories();
+  }
+
+  // leaderboard
+  leaderboards(type, timeframe) {
+    return leaderboards(type, timeframe);
   }
 }
 

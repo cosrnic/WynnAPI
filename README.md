@@ -25,6 +25,15 @@ Alternatively you can just call functions directly like this:
 const WynnAPI = require("wynnapi");
 new WynnAPI().getPlayer("Player").then((player) => console.log(player));
 ```
+You can also do this:
+```js
+async function function() { 
+  const player = await wynn.getPlayer("0xCosmic");
+  console.log(player);
+}
+
+function();
+```
 
 ### Examples
 Examples can be found in the `examples` folder.

@@ -1,7 +1,7 @@
 # WynnAPI
 
 ## Introduction
-This is an API Wrapper for the Wynncraft API, the docs can be found [here](docs.wynncraft.com). Please read the docs before reporting any issues.
+This is an API Wrapper for the Wynncraft API, the docs can be found [here](https://docs.wynncraft.com). Please read the docs before reporting any issues.
 
 ## Installing
 Installing with npm:

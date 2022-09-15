@@ -1,6 +1,6 @@
 {
-  "name": "@cosrnic/wynnapi",
-  "version": "1.0.1",
+  "name": "wynnapi",
+  "version": "1.0.0",
   "description": "An API Wrapper for the Wynncraft API",
   "main": "index.js",
   "scripts": {

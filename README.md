@@ -6,7 +6,7 @@ This is an API Wrapper for the Wynncraft API, the docs can be found [here](https
 ## Installing
 Installing with npm:
 ```bash
-npm i @cosrnic/wynnapi
+npm i wynnapi
 ```
 
 ## Getting Started

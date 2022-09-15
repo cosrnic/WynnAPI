@@ -27,7 +27,7 @@ new WynnAPI().getPlayer("Player").then((player) => console.log(player));
 ```
 
 ### Examples
-Examples will be in the examples folder, they are currently a work in progress!
+Examples can be found in the `examples` folder.
 
 ### Response Codes
 Response Codes and their meanings can be found [here](https://docs.wynncraft.com/Overview/RESPONSES.html).

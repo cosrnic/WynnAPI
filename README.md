@@ -27,12 +27,15 @@ new WynnAPI().getPlayer("Player").then((player) => console.log(player));
 ```
 You can also do this:
 ```js
-async function function() { 
-  const player = await wynn.getPlayer("0xCosmic");
+const WynnAPI = require("wynnapi");
+const wynn = new WynnAPI();
+
+async function function_name(username) {
+  const player = await wynn.getPlayer(username);
   console.log(player);
 }
 
-function();
+function_name("0xCosmic");
 ```
 
 ### Examples
